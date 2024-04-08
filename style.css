@@ -1,0 +1,110 @@
+/* Общие стили */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    color: #333;
+    margin-right: 20px; /* Расстояние между заголовком и списком */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Стили для раздела "О нас" */
+.about-us {
+    display: block;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+/* Стили для раздела "Преимущества" */
+.advantages {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.advantages ul {
+    list-style-type: disc;
+    flex-direction: row; /* Список слева, фото справа */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стили для раздела "Направления обучения" */
+.courses {
+    background-color: #ebebeb;
+    padding: 10px;
+    flex-direction: row; /* Список слева, фото справа */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стили для раздела "Отзывы учеников" */
+.reviews {
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.image {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
